@@ -1,6 +1,8 @@
 //let myArrayFeatures = [String]()
 var myArrayFeatures = ["Lookup nearby events and display on a calendar", "Earn points for your green activities"]
 
+myArrayFeatures.append("Add new green activities to the board")
+
 Vstack {
   Text("About the green growth app") 
   Text("This app is for tracking your environmentally-friendly activities") 
@@ -8,7 +10,8 @@ Vstack {
   
   
   for arrayElement in myArrayFeatures {
-    print(arrayElement) 
+    //print(arrayElement) 
+    Text(arrayElement)
   }
   
 }
