@@ -9,3 +9,7 @@
 - tips for composting , etc
 
 - environmental organizations can join and upload their events based on city
+
+- visualize your points through time with charts
+
+- invest in planting trees ?
