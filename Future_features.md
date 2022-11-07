@@ -7,3 +7,5 @@
 - take the seeds from the produce that you have bought and replant them (collect tree seeds?)
 
 - tips for composting , etc
+
+- environmental organizations can join and upload their events based on city
