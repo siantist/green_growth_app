@@ -6,3 +6,6 @@ links:
 https://www.hackingwithswift.com/quick-start/swiftui
 
 https://developer.apple.com/develop/
+
+ideas:
+rooftop plants
