@@ -13,3 +13,5 @@
 - visualize your points through time with charts
 
 - invest in planting trees ?
+
+- Databases: numerical data (commute time, number of pounds recycled, etc)
