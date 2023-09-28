@@ -5,6 +5,8 @@ struct ContentView: View {
     var body: some View {
         Image("littleLemonLogo")
             .resizable()
+
+        Image(systemName:"square.and.arrow.up")
         
     }
 }
