@@ -6,6 +6,7 @@ components:
 - keep a score and earn points
 - adding (green) activities and their scores relative to each other
 - AI / webscraping part to suggest solutions to green problems
+- calendar feature for recording when activities were accomplished
 
 links:
 https://www.hackingwithswift.com/quick-start/swiftui
