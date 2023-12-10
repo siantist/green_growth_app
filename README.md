@@ -15,3 +15,7 @@ https://developer.apple.com/develop/
 
 ideas:
 rooftop plants
+
+other functionality:
+for corporations:
+require employees to use step machines for generating electricity to charge machines 
