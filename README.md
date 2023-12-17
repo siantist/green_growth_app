@@ -9,6 +9,16 @@ components:
 - calendar feature for recording when activities were accomplished
 - virtual plant garden which models real life plants bought/cared for.
 
+Screens:
+home screen dashboard:
+- see online users
+- see score and ranking(?)
+- see (suggested - AI involved ) activities
+- transfer points into rewards/gifts (for every 1000 points)
+
+add activity screen:
+- add a green activity and its value 
+
 links:
 https://www.hackingwithswift.com/quick-start/swiftui
 
