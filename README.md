@@ -7,6 +7,7 @@ components:
 - adding (green) activities and their scores relative to each other
 - AI / webscraping part to suggest solutions to green problems
 - calendar feature for recording when activities were accomplished
+- virtual plant garden which models real life plants bought/cared for.
 
 links:
 https://www.hackingwithswift.com/quick-start/swiftui
