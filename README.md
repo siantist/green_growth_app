@@ -27,7 +27,7 @@ https://www.hackingwithswift.com/quick-start/swiftui
 
 https://developer.apple.com/develop/
 
-https://www.figma.com/community/file/991275444803411060 (figma currency icons)
+https://www.figma.com/community/file/991275444803411060 (figma currency icons), usersicons
 
 ideas:
 rooftop plants
