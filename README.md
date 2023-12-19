@@ -19,6 +19,9 @@ home screen dashboard:
 add activity screen:
 - add a green activity and its value 
 
+Money:
+- Ask environmental product companies to fund and advertise
+
 links:
 https://www.hackingwithswift.com/quick-start/swiftui
 
