@@ -6,3 +6,13 @@ waiting for a new event to be delivered. To stop the delivery of location update
 
 https://developer.apple.com/library/archive/documentation/UserExperience/Conceptual/LocationAwarenessPG/CoreLocation/CoreLocation.html#//apple_ref/doc/uid/TP40009497-CH2-SW1
 
+displaying a location:
+displayRegionCenteredOnMapItem:(MKMapItem*)from {
+   CLLocation* fromLocation = from.placemark.location;
+// Create a region centered on the starting point with a 10km span
+   MKCoordinateRegion region = MKCoordinateRegionMakeWithDistance(fromLocation.coordinate, 10000, 10000);
+   // Open the item in Maps, specifying the map region to display.
+   [MKMapItem openMapsWithItems:[NSArray arrayWithObject:from]
+              launchOptions:[NSDictionary dictionaryWithObjectsAndKeys:
+                  [NSValue valueWithMKCoordinate:region.center], MKLaunchOptionsMapCenterKey,
+                  [NSValue valueWithMKCoordinateSpan:region.span], MKLaunchOptionsMapSpanKey, nil]];
