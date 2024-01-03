@@ -4,6 +4,7 @@ struct UserModel {
   let displayName : String
   let userName : String
   let followerCount : Int
+  let isVerified : Bool
 }
 
 struct UsersView: View {
