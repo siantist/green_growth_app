@@ -1,5 +1,11 @@
 import SwiftUI
 
+struct UserModel {
+  let displayName : String
+  let userName : String
+  let followerCount : Int
+}
+
 struct UsersView: View {
   @State var users: [UserModel] = [
   UserModel(displayName:"Nick", userName:"nick123", followerCount:100, points:100, isVerified:true)
