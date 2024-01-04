@@ -16,7 +16,25 @@ struct UsersView: View {
     NavigationView {
       List {
         ForEach(users) { user in 
-        
+            HStack(spacing: 15.0) {
+              Circle()
+              .frame(width: 35, height: 35) 
+              VStack(alignment: .leading) {
+                Text(user.displayName)
+                .font(.headline)
+                Text(user.userName)
+                .foregroundColor(.gray)
+                .font(.caption)
+              }
+              Spacer()
+              VStack {
+                Text("\(user.followerCount)")
+                .font(.headline)
+                Text("followers  points")
+                .foregroundColor(.gray)
+                .font(.caption)
+              }
+            }
         }
       }
     }
