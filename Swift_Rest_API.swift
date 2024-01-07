@@ -14,3 +14,6 @@ func performAPICall() async throws -> Question {
   let wrapper = try JSONDecoder().decode(Wrapper.self, from: data)
   return wrapper.items[0]
 }
+Task {
+  try await performAPICall()
+}
