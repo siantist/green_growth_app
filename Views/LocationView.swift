@@ -1,13 +1,5 @@
 import SwiftUI
 
-class LocationViewModel: ObservableObject {
-  @Published var locations: [Location]
-
-  init() {
-    let locations = LocationDataService.locations
-    self.locations = locations
-  }
-}
 
 struct LocationView: View {
 
